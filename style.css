@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    opacity: 0.83;
+    z-index: 9;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+    line-height: 1.2;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.prallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 17px;
+    max-width: 450px;
+    margin: 25px auto;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: "fff";
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20x;
+}
+
+.links-hower {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: lightcoral;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img-hower {
+    transform: scale(0.9);
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
